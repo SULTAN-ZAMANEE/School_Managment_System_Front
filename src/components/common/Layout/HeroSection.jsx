@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="hero-video-container mb-4">
-        {/* فيديو الخلفية */}
+        
         <video 
           className="hero-video" 
           autoPlay 
@@ -15,15 +15,15 @@ const HeroSection = () => {
           loop 
           playsInline
         >
-          <source src="/videos/hero-background.mp4" type="video/mp4" />
+          <source src="https://youtu.be/bvX1n47aYcg" type="video/mp4" />
           <source src="/videos/hero-background.webm" type="video/webm" />
           متصفحك لا يدعم تشغيل الفيديو
         </video>
         
-        {/* طبقة شفافة للنص */}
+        
         <div className="hero-overlay"></div>
         
-        {/* المحتوى */}
+        
         <div className="hero-content">
           <Container>
             <h1 className="display-4 text-white">أهلاً بكم في البوابة التعليمية السودانية</h1>
