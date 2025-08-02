@@ -51,7 +51,7 @@ const UserData = {
   avatar: 'https://via.placeholder.com/50',
   role: 'parent'
 }
-const MinistryDashboard = ({ }) => {
+const MinistryDashboard = () => {
   return (
     <>
       <DataStatusIndicator
